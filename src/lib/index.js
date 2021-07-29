@@ -1,4 +1,5 @@
-import TsugiWelcome from './components/TsugiWelcome';
+import { TsugiWelcome } from './components/TsugiWelcome';
+import TsugiZap from './components/TsugiZap';
 
-export { TsugiWelcome };
+export { TsugiWelcome, TsugiZap };
 

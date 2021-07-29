@@ -1,5 +1,6 @@
 import './App.css';
 import { TsugiWelcome } from './lib/components/TsugiWelcome';
+import TsugiZap from './lib/components/TsugiZap';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           Learn React
         </a>
       <TsugiWelcome name="Chuck"/>
+      <TsugiZap name="Chuck Zap"/>
       </header>
     </div>
   );
